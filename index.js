@@ -20,7 +20,7 @@ function currentLine(line) {
   var current = [];
   let i = 0;
   while (i < line.length) {
-    current.push(` `+ [i + 1] + `. ` + current[i]);
+    current.push(` `+ [i + 1] + `. ` + line[i]);
     i++;
   }
   if (line.length === 0) {
