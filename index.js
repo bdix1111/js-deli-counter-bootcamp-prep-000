@@ -20,6 +20,26 @@ function currentLine(line) {
   var current = [];
   let i = 0;
   while (i < line.length) {
-    current.push(` ` + [i + 1] + `.)
+    current.push(`` + [i + 1] + `.` + current[i]);
+    i++;
+  }
+  if (current.length === 0) {
+    return 'The line is currently empty.';
+  }
+  else {
+    return 'The line is currently:' + line;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
