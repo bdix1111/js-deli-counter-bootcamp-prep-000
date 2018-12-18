@@ -3,4 +3,10 @@ function takeANumber(line, name) {
   return `Welcome, ${name}. You are number ${line.length} in line.`;
 }
 
-function nowServing
+function nowServing(line) {
+  let i = 0;
+  while (i < line.length) {
+    i++;
+  }
+  
+}
